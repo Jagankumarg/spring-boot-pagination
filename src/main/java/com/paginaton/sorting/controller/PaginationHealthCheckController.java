@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class PaginationHealthCheckController {
     @GetMapping("/pagination/healthCheck")
-    public String healthCheck(){
+    public String healthCheck() {
         return "Pagination Application is up and running";
     }
 }
